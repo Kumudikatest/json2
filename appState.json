@@ -1,0 +1,135 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0b650110-b3d7-4fd0-bb62-6c4eab647fd4": {
+        "id": "0b650110-b3d7-4fd0-bb62-6c4eab647fd4",
+        "parent": null,
+        "name": "json2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "6682fd91-4a97-4ff4-942a-f4044baee7f4",
+          "66a8d0b6-d414-488b-ad14-b66d9b0c0d6f",
+          "43205fb6-419e-4773-aa41-ff83ff894d7a",
+          "9b13de8e-afe8-43b9-8685-8fcb29836b86",
+          "8545d129-e06c-47be-a9c9-5b6e1da8bb64"
+        ],
+        "isRemovable": false,
+        "filePath": "json2"
+      },
+      "6682fd91-4a97-4ff4-942a-f4044baee7f4": {
+        "id": "6682fd91-4a97-4ff4-942a-f4044baee7f4",
+        "parent": "0b650110-b3d7-4fd0-bb62-6c4eab647fd4",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "json2/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "66a8d0b6-d414-488b-ad14-b66d9b0c0d6f": {
+        "id": "66a8d0b6-d414-488b-ad14-b66d9b0c0d6f",
+        "parent": "0b650110-b3d7-4fd0-bb62-6c4eab647fd4",
+        "name": "html.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "json2/html.html"
+      },
+      "43205fb6-419e-4773-aa41-ff83ff894d7a": {
+        "id": "43205fb6-419e-4773-aa41-ff83ff894d7a",
+        "parent": "0b650110-b3d7-4fd0-bb62-6c4eab647fd4",
+        "name": "css1.css",
+        "type": "CSS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "json2/css1.css"
+      },
+      "9b13de8e-afe8-43b9-8685-8fcb29836b86": {
+        "id": "9b13de8e-afe8-43b9-8685-8fcb29836b86",
+        "parent": "0b650110-b3d7-4fd0-bb62-6c4eab647fd4",
+        "name": "jsonout.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "json2/jsonout.json"
+      },
+      "8545d129-e06c-47be-a9c9-5b6e1da8bb64": {
+        "id": "8545d129-e06c-47be-a9c9-5b6e1da8bb64",
+        "parent": "0b650110-b3d7-4fd0-bb62-6c4eab647fd4",
+        "name": "sub1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "b1342fec-44e8-4075-a7df-199b77f6269b"
+        ],
+        "isRemovable": true,
+        "filePath": "json2/sub1"
+      },
+      "b1342fec-44e8-4075-a7df-199b77f6269b": {
+        "id": "b1342fec-44e8-4075-a7df-199b77f6269b",
+        "parent": "8545d129-e06c-47be-a9c9-5b6e1da8bb64",
+        "name": "jsonin.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "json2/sub1/jsonin.json"
+      }
+    },
+    "rootNode": "0b650110-b3d7-4fd0-bb62-6c4eab647fd4",
+    "openFiles": [
+      "6682fd91-4a97-4ff4-942a-f4044baee7f4",
+      "66a8d0b6-d414-488b-ad14-b66d9b0c0d6f",
+      "43205fb6-419e-4773-aa41-ff83ff894d7a",
+      "9b13de8e-afe8-43b9-8685-8fcb29836b86",
+      "b1342fec-44e8-4075-a7df-199b77f6269b"
+    ],
+    "currentFileId": "b1342fec-44e8-4075-a7df-199b77f6269b",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "json2",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1576744859359
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "json2",
+      "url": "https://github.com/Kumudikatest/json2"
+    }
+  }
+}
